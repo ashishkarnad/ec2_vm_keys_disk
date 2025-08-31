@@ -1,6 +1,6 @@
 # Terraform generated files and directories
 .terraform/
-.keys/
+.keys/*
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
