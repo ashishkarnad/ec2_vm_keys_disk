@@ -81,7 +81,7 @@ resource "aws_egress_only_internet_gateway" "ash25aug_vpcegw" {
 
 resource "aws_key_pair" "ec2_key" {
     key_name = "ash25aug-key"
-    public_key = file("${path.module}/ash25augkeypair.pub")
+    public_key = file("${path.module}/keys/ash25augkeypair.pub")
     tags = {
         Name = "ash25aug_keypair"
         environment = "dev"
